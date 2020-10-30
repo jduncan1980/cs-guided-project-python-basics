@@ -1,3 +1,4 @@
+#coding: utf-8
 """
 Challenge #4:
 
@@ -10,5 +11,7 @@ Examples:
 - find_perimeter(2, 9) ➞ 22
 """
 def find_perimeter(length, width):
-    # Your code here
+    return (length + width) * 2
+
+print(find_perimeter(6, 7))
 

@@ -1,3 +1,4 @@
+#coding: utf-8
 """
 Challenge #9:
 
@@ -13,5 +14,10 @@ Notes:
 - All of the letters in the input list will always be lowercase.
 """
 def mapping(letters):
-    # Your code here
+    dict = {}
+    for letter in letters:
+        dict[letter] = letter.upper()
+    return dict
+
+print(mapping(["p", "s"]))
 

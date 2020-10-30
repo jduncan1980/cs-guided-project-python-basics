@@ -1,3 +1,4 @@
+# coding: utf-8
 """
 Challenge #2:
 
@@ -8,6 +9,8 @@ Examples:
 - convert(3) ➞ 180
 - convert(2) ➞ 120
 """
-def convert(minutes):
-    # Your code here
+def convert(minutes:int) -> int:
+    return minutes * 60
+
+print(convert(5))
 
