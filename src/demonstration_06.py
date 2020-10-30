@@ -1,3 +1,4 @@
+#coding: utf-8
 """
 Challenge #6:
 
@@ -16,5 +17,10 @@ Examples:
 - XO("zzoo") ➞ False
 """
 def XO(txt):
-    # Your code here
+    x = txt.lower().count('x')
+    o = txt.lower().count('o')
+    print(x, o)
+    return x == o
+    
 
+print(XO('fdsfsd'))
